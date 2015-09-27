@@ -1,28 +1,7 @@
-== README
+== A test Rails app to play around with ElasticSearch using the searchkick gem.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+You will need to install ElasticSearch on your development system.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+On a Mac:
+- <tt>brew install elasticsearch</tt>
+- Then follow instructions to start elasticsearch at login and run it now.
