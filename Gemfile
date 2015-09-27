@@ -44,3 +44,4 @@ group :development, :test do
 end
 
 gem 'searchkick', '~> 0.9.1'
+gem 'jquery-ui-rails'

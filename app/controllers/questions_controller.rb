@@ -64,6 +64,10 @@ class QuestionsController < ApplicationController
     end
   end
 
+  def autocomplete
+    render json: Question.search(params[:term], fields: [{question: :text_start}], limit: 10).map(&:question)
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_question

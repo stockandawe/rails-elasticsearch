@@ -1,5 +1,5 @@
 class Question < ActiveRecord::Base
   has_many :answers
 
-  searchkick
+  searchkick text_start: [:question]
 end
